@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Marshall Olson Project</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link href="styles/custom.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" href="../css/themes/module5activity.css">
+        <link rel="stylesheet" href="../css/themes/module5activity.min.css">
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/mobileservices/MobileServices.Web-1.2.5.min.js"></script>
+    </head>
+    <body>
+        <div id="page" data-role="page" data-theme="a" data-add-back-btn="true">
+                    <div data-role="panel" id="myPanel">
+                        <h2>Panel Header</h2>
+                        <ul data-role="listview" data-theme="c">
+                            <li class="menu"><a href="#suggestAGame">Suggest A Game</a></li>
+                            <li class="menu"><a href="#contact">Contact Me</a></li>
+                            <li class="menu"><a href="#about">About Us</a></li>
+                            </li>
+                        </ul>
+                        <p>You can close this panel by clicking outside of it, pressing the Esc key, or by swiping.</p>
+                    </div>
+                    
+                    <div data-role="header">
+                <h1>Top Games Based On Genre</h1>
+                <img src="../img/logo.jpg" width="100" alt="logo" />
+                <a href="#myPanel" class="ui-btn ui-btn-inline">Game Sites Menu</a>
+                    </div>
+            <div data-role="header" data-theme="a">
+            </div>
+            <div data-role="content">
+                <div data-theme="a" data-form="ui-body-a" class="ui-body ui-body-a ui-corner-all">
+                    <p>Welcome to my web page! I'm here to show you my FAVORITE games from each genre! Click each button below to see my favorites. If you have suggestions of games I should play or that you think should be on this list, click the Contact Me button below!</p>
+                </div><br>
+                    <div class="ui-grid-b">
+                        <div class="ui-block-a">
+                            <div class="ui-bar ui-bar-a" style="height:250px"><h3>Game Fact #1:</h3><br><p>                       As the data from 2021 shows, the number of games in the world was estimated at 2.96 billion. In addition to that, it's
+                            estimated that the number of those who play games via PC, consoles, tablets, and smartphones will surpass 3 billion this
+                            year and amount to 3.32 billion by 2024.</p></div>
+                        </div>
+                        <div class="ui-block-b">
+                            <div class="ui-bar ui-bar-a" style="height:250px"><h3>Game Fact #2:</h3><br><p>Today, 83% of video game sales happen in the digital world.Unlike now, back in the 2000s, when you wanted to purchase a video game, you had to go to a retail shop. Today, big
+                            publishers like Ubisoft, Electronic Arts, and Activision Blizzard benefit from digital distribution in many ways.</p></div>
+                        </div>
+                        <div class="ui-block-c">
+                            <div class="ui-bar ui-bar-a" style="height:250px"><h3>Game Fact #3:</h3><br><p>In 2021, gamers in the US spent $60.4 billion on games. This implies an 8% increase compared to 2020. In addition, the spending on games increased by a staggering 14% compared
+                            to the year before. Finally, forecasts for the near future show that the gaming industry worth might reach $200 billion by 2023. It's worth
+                            mentioning that consumer spending on accessories generated $2.7 billion, a 2% increase.</p></div>
+                        </div>
+                    </div>
+                    <ul data-role="listview" data-theme="b" data-filter="true">
+                        <li><a href="#action">Top 3 Action/Adventure</a></li>
+                        <li><a href="#rpg">Top 3 RPG</a></li>
+                        <li><a href="#scifi">Top 3 Sci-Fi</a></li>
+                        <li><a href="#horror">Top 3 Horror</a></li>
+                        <li><a href="#childrens">Top 3 Childrens</a></li>
+                    </ul>
+            </div>
+            <div data-role="footer" data-theme="a">
+                <h4>Copyright &copy; Marshall Olson 2022</h4>
+            </div>
+        </div>
+        <div id="action" data-role="page" data-theme="a" data-add-back-btn="true">
+            <div data-role="header" data-theme="a" data-add-back-btn="true">
+                <h1>Top 3 Action/Adventure</h1>
+            </div>
+            <div data-role="content">
+                    <div data-theme="a" data-form="ui-body-a" class="ui-body ui-body-a ui-corner-all">
+                        <h3>Action/Adventure Games</h3>
+                        <ol>
+                            <li>It Takes Two - Rating: 9 / 10</li>
+                            <ul>
+                                <li><b>Summary</b>: Embark on the craziest journey of your life in It Takes Two, a genre-bending platform adventure created purely for co-op. Play as the clashing couple Cody and May, two humans turned into dolls by a magic spell. Trapped in a fantastical world, they're reluctantly challenged with saving their fractured relationship by the suave love guru Dr. Hakim. A huge variety of gleefully disruptive gameplay challenges stand between them and their return to normal.</li>
+                                <li><b>Notable Mentions:</b> Game of the Year in 2021 by The Game Awards</li>
+                            </ul>
+                            <li>Red Dead Redemption 2 - Rating: 9 / 10</li>
+                            <ul>
+                                <li><b>Summary</b>: America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.</li>
+                                <li><b>Notable Mentions:</b> Beautiful game with lots to do and characters to interact with.</li>
+                            </ul>
+                            <li>Assassin's Creed 2 - Rating: 8 / 10</li>
+                            <ul>
+                                <li><b>Summary</b>: Assassin's Creed II introduces you to Ezio, a new assassin carrying on the deadly lineage of his forebears. Confront an epic tale of power and corruption as you hone your Assassin's art, wielding weapons and instruments designed by the legendary Leonardo Da Vinci himself in this gripping and deadly sequel.</li>
+                            </ul>
+                        </ol>
+                    </div>
+            </div>
+            <div data-role="footer" data-theme="a">
+                <h4>Copyright &copy; Marshall Olson 2022</h4>
+            </div>
+        </div>
+        <div id="rpg" data-role="page" data-theme="a" data-add-back-btn="true">
+            <div data-role="header" data-theme="a" data-add-back-btn="true">
+                <h1>Top 3 RPG</h1>
+            </div>
+            <div data-role="content">
+                <div data-theme="a" data-form="ui-body-a" class="ui-body ui-body-a ui-corner-all">
+                    <h3>RPG Games</h3>
+                    <ol>
+                        <li>Mass Effect 2 - Rating: 9 / 10</li>
+                        <ul>
+                            <li><b>Summary</b>: Two years after Commander Shepard repelled invading Reapers bent on the destruction of organic life, a mysterious new enemy has emerged. On the fringes of known space, something is silently abducting entire human colonies. Now Shepard must work with Cerberus, a ruthless organization devoted to human survival at any cost, to stop the most terrifying threat mankind has ever faced.</li>
+                            <li><b>Notable Mentions:</b> The combat is much improved from its predecessor and gives more weight to the gunplay and the powers and gives more direct control over squad mates.</li>
+                        </ul>
+                        <li>The Elder Scrolls V: Skyrim - Rating: 9 / 10</li>
+                        <ul>
+                            <li><b>Summary</b>: The game is set 200 years after the events of Oblivion, and takes place in Skyrim, the northernmost province of Tamriel. Its main story focuses on the player's character, the Dragonborn, on their quest to defeat Alduin the World-Eater, a dragon who is prophesied to destroy the world. Over the course of the game, the player completes quests and develops the character by improving skills. The game continues the open world tradition of its predecessors by allowing the player to travel anywhere in the game world at any time, and to ignore or postpone the main storyline indefinitely.</li>
+                            <li><b>Notable Mentions:</b> TESV: Skyrim has won 227 awards.</li>
+                        </ul>
+                        <li>Star Wars: Knights of the Old Republic - Rating: 8 / 10</li>
+                        <ul>
+                            <li><b>Summary</b>: It is four thousand years before the Galactic Empire and hundreds of Jedi Knights have fallen in battle against the ruthless Sith. You are the last hope of the Jedi Order. Can you master the awesome power of the Force on your quest to save the Republic? Or will you fall to the lure of the dark side? Hero or villain, savior or conqueror... you alone will determine the destiny of the entire galaxy! Features An epic Star Wars role-playing experience with unique characters, creatures, vehicles and planets. Learn to use the Force with over 40 different powers, plus build your own Lightsaber. Adventure through iconic Star Wars locations, including Tatooine and the Wookiee homeworld of Kashyyyk. Choose your party from nine customizable characters, including Twi'leks, Droids and Wookiees. Travel to seven enormous worlds in your own starship, the Ebon Hawk.</li>
+                            <li><b>Notable Mentions:</b> Star Wars (prior Disney)... What else needs to be said?:-)</li>
+                        </ul>
+                    </ol>
+                </div>
+            </div>
+            <div data-role="footer" data-theme="a">
+                <h4>Copyright &copy; Marshall Olson 2022</h4>
+            </div>
+        </div>
+        <div id="scifi" data-role="page" data-theme="a" data-add-back-btn="true">
+            <div data-role="header" data-theme="a" data-add-back-btn="true">
+                <h1>Top 3 Sci-Fi</h1>
+            </div>
+            <div data-role="content">
+                <div data-theme="a" data-form="ui-body-a" class="ui-body ui-body-a ui-corner-all">                
+                    <h3>Sci-Fi Games</h3>
+                    <ol>
+                        <li>Portal 2 - Rating: 10 / 10</li>
+                        <ul>
+                            <li><b>Summary</b>: Like the original Portal, players solve puzzles by placing portals and teleporting between them. Portal 2 adds features including tractor beams, lasers, light bridges, and paint-like gels that alter player movement or allow portals to be placed on any surface. In the single-player campaign, players control Chell, who navigates the dilapidated Aperture Science Enrichment Center during its reconstruction by the supercomputer GLaDOS; new characters include robot Wheatley and Aperture founder Cave Johnson. In the new cooperative mode, players solve puzzles together as robots Atlas and P-Body.</li>
+                            <li><b>Notable Mentions:</b> Puzzle game that makes you think. Cooperative is extremely fun with friends.</li>
+                        </ul>
+                        <li>No Man's Sky - Rating: 8 / 10</li>
+                        <ul>
+                            <li><b>Summary</b>: This is a game about exploration and survival in an infinite procedurally generated galaxy. You can fly seamlessly from the surface of one planet to another, and every star in the sky is a sun that you can visit. Where you'll go and how fast you'll make your way through this universe is up to you. Explore uncharted solar systems and catalogue unique new forms of life. Every planet's landscape is different from the next, and populated by species never before encountered. Find ancient artifacts that could reveal the secrets behind the universe. They're exploring the same vast universe in
+                            parallel; perhaps you'll make your mark on their worlds as well as your own. Your ship and suit are fragile, and every encounter can test your skills to the limit. From dogfighting in space to firstperson combat on a planet's surface, you will face foes ready to overwhelm you. Collect precious resources on the surfaces of planets and trade them for the ships, suits and equipment that will take you to your destiny in the stars.</li>
+                            <li><b>Notable Mentions:</b> The fact this is a 'infinite galaxy' impresses me.</li>
+                        </ul>
+                        <li>Halo 3 - Rating: 9 / 10</li>
+                        <ul>
+                            <li><b>Summary</b>: Halo 3 is a shooter game where players primarily experience gameplay from a first-person perspective. Much of the
+                            gameplay takes place on foot, but also includes segments focused on vehicular combat. Gameplay focuses on the "Golden
+                            Triangle of Halo": players utilize weapons, grenades, and melee attacks, which are available to a player in most
+                            situations. Players may dual-wield some weapons for additional firepower, forgoing the use of grenades and melee
+                            attacks. Unlike previous installments, the player's secondary weapon is visible on their player model, holstered or
+                            slung across the player's back. Halo 3 introduces support weapons, cumbersome two-handed weapons that slow the player
+                            when carried, but offer greatly increased firepower in return.</li>
+                            <li><b>Notable Mentions:</b> First-day sales of Halo 3 reached $170 million in the U.S., setting a record for highest gross of a video game within 24
+                            hours of its release in 2007.</li>
+                        </ul>
+                    </ol>
+                </div>
+            </div>
+            <div data-role="footer" data-theme="a">
+                <h4>Copyright &copy; Marshall Olson 2022</h4>
+            </div>
+        </div>
+        <div id="horror" data-role="page" data-theme="a" data-add-back-btn="true">
+            <div data-role="header" data-theme="a" data-add-back-btn="true">
+                <h1>Top 3 Horror</h1>
+            </div>
+            <div data-role="content">
+                <div data-theme="a" data-form="ui-body-a" class="ui-body ui-body-a ui-corner-all">                
+                    <h3>Horror Games</h3>
+                    <ol>
+                        <li>Phasmophobia - Rating: 10 / 10</li>
+                        <ul>
+                            <li><b>Summary</b>: Phasmophobia is an online 4 player co-op horror with VR support. Paranormal activity is on the rise and it is up to your
+                            team to investigate and end the nightmare. Whether using VR or just a PC, form a team of up to 4 with your friends or
+                            other Ghost Hunters in online multiplayer with full dedicated servers. Immerse yourself in a realistic experience that
+                            will get your heart pumping. Using fully interactive ghost hunting equipment your team will work together to investigate
+                            several hauntings that will change each time you play. The game will offer several locations during early access in
+                            which you can expect to hunt ghosts through several houses, a prison and an asylum with more to come. The game offers
+                            fully procedural ghosts meaning each game will be different. This will require you and your team to do some detective
+                            work to find out what the ghost is and how to deal with it. Either be the "guy in the chair" watching player placed
+                            cameras or be in the house getting your hands dirty. Use equipment such as a Ouija Board, Salt, EMF Reader, Motion
+                            Sensors, UV Flashlight, Spirit Box and more.</li>
+                            <li><b>Notable Mentions:</b> Extremely fun and scary game to play with your friends. Developers actively listen to the community, which feels rare nowadays.</li>
+                        </ul>
+                        <li>Layers Of Fear - Rating: 9 / 10</li>
+                        <ul>
+                            <li><b>Summary</b>: In Layers of Fear, the player controls a psychologically disturbed painter who is trying to complete his magnum opus as
+                            he navigates a Victorian mansion revealing secrets about his past. The game is divided into six chapters with various items for the player to find in order to complete his work. The game
+                            is heavily dimmed, and there are objects that uncover certain aspects of the painter's history. While completing the
+                            painting, there is a letter that is slowly pieced together, which shows the origin of his masterpiece, and objects which
+                            explain the secret of the painter through dialogue flashbacks.</li>
+                        </ul>
+                        <li>Resident Evil 7 - Rating: 9 / 10</li>
+                        <ul>
+                            <li><b>Summary</b>: The player controls Ethan Winters from a first-person perspective as he searches a derelict estate for his missing wife.
+                            Although Ethan is a civilian with few combat skills, he is able to arm himself with a variety of weapons including
+                            handguns, shotguns, flamethrowers, explosives and chainsaws against the estate's residents, the Baker family, as well as
+                            humanoid fungal creatures known as the "Molded" and mutated insects. He can block attacks to reduce damage. Various
+                            sections of the game are spent being pursued by members of the Baker family, who, if engaged in combat, can only be
+                            temporarily incapacitated. However, these encounters are avoidable by means of stealth, or running away.</li>
+                        </ul>
+                    </ol>
+                </div>
+            </div>
+            <div data-role="footer" data-theme="a">
+                <h4>Copyright &copy; Marshall Olson 2022</h4>
+            </div>
+        </div>
+        <div id="childrens" data-role="page" data-theme="a" data-add-back-btn="true">
+            <div data-role="header" data-theme="a" data-add-back-btn="true">
+                <h1>Top 3 Childrens</h1>
+            </div>
+            <div data-role="content">
+                <div data-theme="a" data-form="ui-body-a" class="ui-body ui-body-a ui-corner-all">
+                    <h3>Childrens Games</h3>
+                    <ol>
+                        <li>Oregon Trail - Rating: 10 / 10</li>
+                        <ul>
+                            <li><b>Summary</b>: The Oregon Trail is a series of educational computer games. The first game was originally developed by Don Rawitsch,
+                            Bill Heinemann, and Paul Dillenberger in 1971 and produced by the Minnesota Educational Computing Consortium (MECC) in
+                            1974. The original game was designed to teach 8th grade schoolchildren about the realities of 19th-century pioneer life
+                            on the Oregon Trail. The player assumes the role of a wagon leader guiding a party of settlers from Independence,
+                            Missouri, to Oregon's Willamette Valley via a covered wagon in 1848.</li>
+                            <li><b>Notable Mentions:</b> There are many versions of this game, but the concept remains the same for each. Fantastic game.</li>
+                        </ul>
+                        <li>Nancy Drew (Series) - Rating: 10 / 10</li>
+                        <ul>
+                            <li><b>Summary</b>: Nancy Drew is a fictional character appearing in several mystery book series, movies, games, and a TV show as a teenage amateur
+                            sleuth. There are 33 Nancy Drew games that involve various problems that Nancy investigates. The first game, <i>Nancy Drew: Secrets Can Kill</i>, was released in 1998.</li>
+                            <li><b>Notable Mentions:</b> Not sure what it is about this, but these were far more fun than any Sherlock Holmes games that were made.</li>
+                        </ul>
+                        <li>RollerCoaster Tycoon (1999) - Rating: 10 / 10</li>
+                        <ul>
+                            <li><b>Summary</b>: The premise of the game is to complete a series of preset scenarios by successfully building and maintaining amusement
+                            parks through business ownership as a theme park entrepreneur. Players can choose from dozens of roller coaster types
+                            and can also build log flumes, carousels, bumper cars, haunted houses, go-karts, Ferris wheels, and swinging ships,
+                            among other rides. The player may hire handymen to sweep paths, empty garbage cans, water flowers and mow lawns;
+                            mechanics to inspect and fix rides; security guards to prevent vandalism within the park; and entertainers to entertain
+                            the guests. The geography and landscaping of the park can be modified, allowing the player to lower/raise terrain and
+                            add water to improve the park's attractiveness, as well as to allow rides to fit into their surroundings more easily.
+                            Players must also balance the needs of the visitors by strategically placing food stalls, concession stands, bathrooms,
+                            and information kiosks.</li>
+                        </ul>
+                    </ol>
+                </div>
+            </div>
+            <div data-role="footer" data-theme="a">
+                <h4>Copyright &copy; Marshall Olson 2022</h4>
+            </div>
+        </div>
+        <div id="suggestAGame" data-role="page" data-theme="a" data-add-back-btn="true">
+            <div data-role="header" data-theme="a" data-add-back-btn="true">
+                <h1>Suggest A Game</h1>
+            </div>
+            <div data-role="content">
+                    <div data-theme="a" data-form="ui-body-a" class="ui-body ui-body-a ui-corner-all">
+                        <h2>Have a game to suggest?</h2>
+                        <form action="form.php" method="post">
+                            <label for="fname">Game Name:</label>
+                            <input type="text" name="fname" id="fname" data-clear-btn="true">
+        
+                            <label for="comments">Summary / Your Thoughts / Your Rating:</label>
+                            <textarea name="comments" class="suggestionForm" cols="30" rows="50"></textarea>
+                            <input type="submit" value="Submit Button" class="submit">
+                        </form>
+                    </div>
+            </div>
+            <div data-role="footer" data-theme="a">
+                <h4>Copyright &copy; Marshall Olson 2022</h4>
+            </div>
+        </div>
+        <div id="contact" data-role="page" data-theme="a" data-add-back-btn="true">
+            <div data-role="header" data-theme="a" data-add-back-btn="true">
+                <h1>Contact Me</h1>
+            </div>
+            <div data-role="content">
+                <div data-theme="a" data-form="ui-body-a" class="ui-body ui-body-a ui-corner-all">
+                    <form action="form.php" method="post">
+                        <label for="fname">Name:</label>
+                        <input type="text" name="fname" id="fname" data-clear-btn="true">
+                    
+                        <label for="birthdate">Birth Date:</label>
+                        <input type="date" name="date" id="date" value="">
+
+                        <label for="tel">Phone Number:</label>
+                        <input type="tel" name="tel" id="tel" value="123-456-7890">
+
+                        <label for="preferred">Preferred method of contact:</label>
+                        <select name="preferred" id="preferred" data-mini="true" data-inline="true">
+                            <option value="email">Email</option>
+                            <option value="call">Call</option>
+                            <option value="text">Text</option>
+                        </select>
+
+                        <label for="comments">What's your favorite Game and why? Additional Comments:</label>
+                        <textarea name="comments" class="form" cols="30" rows="20"></textarea>
+                    
+                        <label for="file">Attachments:</label>
+                        <input type="file" name="file" id="file" value="">
+                    
+                        <input type="reset" value="Reset Button" class="reset">
+                        <input type="submit" value="Submit Button" class="submit">
+                    </form>
+                </div>
+            </div>
+            <div data-role="footer" data-theme="a">
+                <h4>Copyright &copy; Marshall Olson 2022</h4>
+            </div>
+        </div>
+        <div id="about" data-role="page" data-theme="a" data-add-back-btn="true">
+            <div data-role="header" data-theme="a" data-add-back-btn="true">
+                <h1>About Us</h1>
+            </div>
+            <div data-role="content">
+                <div data-theme="a" data-form="ui-body-a" class="ui-body ui-body-a ui-corner-all">
+                    <p>It's our dream that all people will play games with each other one day. We have the power to give every man, woman, and child a piece of gaming equipment. With your help of a small donation of $219.12, we can get that much closer to our goal.</p>                                
+                </div>
+            </div>
+            <div data-role="footer" data-theme="a">
+                <h4>Copyright &copy; Marshall Olson 2022</h4>
+            </div>
+        </div>
+    </body>
+    <script>
+        (function () {
+
+                var comment = document.querySelector('.form');
+                var suggestionComment = document.querySelector('.suggestionForm');
+
+                function supportsLocalStorage() {
+                    return typeof (Storage) !== 'undefined';
+                }
+
+                if (!supportsLocalStorage()) {
+                    comment.value = 'Your browser does not support localStorage.';
+                    suggestionForm.value = 'Your browser does not support localStorage.';
+                } else {
+                    try {
+                        setInterval(function () {
+                            localStorage.setItem('autosave', comment.value);
+                            localStorage.setItem('autosave', suggestionForm.value);
+                        }, 1000);
+                    } catch (e) {
+                        if (e == QUOTA_EXCEEDED_ERR) {
+                            alert('Quota exceeded!');
+                        }
+                    }
+                    if (localStorage.getItem('autosave')) {
+                        comment.value = localStorage.getItem('autosave');
+                        comment.value = localStorage.getItem('suggestionForm');
+                    }
+                    document.querySelector('.clear').onclick = function () {
+                        comment.value = '';
+                        suggestionForm.value = '';
+                        localStorage.removeItem('autosave');
+                    };
+                }
+            })();
+    </script>
+</html>
